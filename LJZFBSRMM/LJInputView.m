@@ -99,6 +99,7 @@
     
     UIImageView *yuan = (UIImageView *)[self.borderIV viewWithTag:_num];
     [yuan removeFromSuperview];
+    [self.sureBtn setEnabled:NO];
     _num --;
     
 }
