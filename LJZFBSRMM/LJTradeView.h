@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface LJTradeView : UIView
-
+- (void)show;
 @end

@@ -17,19 +17,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5e-tR-JyS">
-                                <rect key="frame" x="263" y="173" width="22" height="22"/>
-                                <state key="normal">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUy-1C-Mjb">
+                                <rect key="frame" x="209" y="267" width="182" height="66"/>
+                                <color key="backgroundColor" red="1" green="0.15128877739999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="Y2G-Gl-dKh"/>
+                                    <constraint firstAttribute="width" constant="182" id="cEr-AQ-kFP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="支 付">
+                                    <color key="titleColor" red="1" green="0.75982960219999995" blue="0.54335349570000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="zhifu:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jIr-hd-z5h"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="kUy-1C-Mjb" secondAttribute="centerX" id="SL5-c0-Vac"/>
+                            <constraint firstAttribute="centerY" secondItem="kUy-1C-Mjb" secondAttribute="centerY" id="gmk-Vb-EwA"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15" y="152"/>
+            <point key="canvasLocation" x="-298" y="158"/>
         </scene>
     </scenes>
 </document>

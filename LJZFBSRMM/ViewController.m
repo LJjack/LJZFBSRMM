@@ -16,12 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view addSubview:[[LJTradeView alloc] initWithFrame:self.view.bounds]];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)zhifu:(UIButton *)sender {
+    LJTradeView *tradeView = [[LJTradeView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:tradeView];
+    [tradeView show];
 }
 
 @end
